@@ -13,7 +13,7 @@ const HTTP_404 = 404;
 const argv = require('minimist')(process.argv.slice(2));
 
 if (!argv.credentials) {
-    console.error("Please spesify --credentials");
+    console.error("Please specify --credentials");
     process.exit(1);
 }
 
