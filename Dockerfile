@@ -1,4 +1,4 @@
-FROM %%BASE_IMAGE%%
+from %%base_image%%
 
 ENV LANG C.UTF-8
 
