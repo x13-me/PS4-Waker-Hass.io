@@ -1,4 +1,4 @@
-from %%base_image%%
+FROM hassioaddons/base-armhf
 
 ENV LANG C.UTF-8
 
